@@ -1,2 +1,2 @@
-RSpec.describe DockingStation do
-    end
+describe DockingStation do
+end
