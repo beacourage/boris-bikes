@@ -13,3 +13,4 @@ You can fork this repo in order to get a repository that is similarly enabled, a
 [![Code Climate](https://codeclimate.com/github/makersacademy/boris-bikes/badges/gpa.svg)](https://codeclimate.com/github/makersacademy/boris-bikes)
 
 [![Test Coverage](https://codeclimate.com/github/makersacademy/boris-bikes/badges/coverage.svg)](https://codeclimate.com/github/makersacademy/boris-bikes)
+This is the start of the README.md file.
