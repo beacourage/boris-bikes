@@ -35,6 +35,15 @@ describe DockingStation do
     expect {docking_station.release_bike}.to raise_error('No bikes available')
   end
 
+  it 'raises an error when no dock space available to dock bike' do
+    docking_station = DockingStation.new
+    bike1 = Bike.new
+    bike2 = Bike.new
+    docking_station.dock(bike2)
+    expect {docking_station.dock(bike1)}.to raise_error('No dock space')
+  end
+
+
 end
 
    # it { is_expected.to respond_to(:dock).with(1).argument}
