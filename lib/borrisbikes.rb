@@ -15,7 +15,7 @@ attr_reader :dock, :bike
 
   def dock(bike)
     if @bike.is_a? Bike
-      fail 'No dick space'
+      fail 'No dock space'
     else
     @bike = bike
     end
